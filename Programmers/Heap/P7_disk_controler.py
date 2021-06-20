@@ -35,24 +35,18 @@ import heapq
 def solution(jobs):
     acc = 0
     len_jobs = len(jobs)
-    cur_time = 0
     for i in range(len_jobs):
-        jobs[i].append(jobs[i][0])
+        jobs[i].append(jobs[i][0])  # 종료시간, 소요시간, 요청시간 순서
 
     while jobs:
         jobs.sort(key=lambda x: (x[0], x[1]))   # 입력 순서, 소요시간 순으로 정렬
-        print(jobs)
         temp = jobs.pop(0)
-        acc += (temp[1] - temp[0])
-        cur_time += acc
+        time = temp[0] + temp[1]    # 종료시간 + 소요시간
+        acc += (time - temp[2])     # 종료시간 - 요청시간
 
-        print(acc)
-        print(cur_time)
         for i in range(len(jobs)):
-            if jobs[i][0] < cur_time:
-                jobs[i][1] += (cur_time - jobs[i][0])
-
-
+            if jobs[i][0] < time:
+                jobs[i][0] = time
 
     return acc // len_jobs
 
