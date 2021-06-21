@@ -14,28 +14,22 @@
 # 주어진 정수에 대해 가장 왼쪽자리 수가 무엇인지 저장하자.
 # 왼쪽자리수를 기준으로 정렬을 하면 저음에 올 가장 큰 수를 구할 수 있을것이다.
 # 퍼뮤테이션을 만들고
-
-from itertools import permutations
 import heapq
 
 def solution(numbers):
     answer = ''
     temp_num = []
     for num in numbers:
-        temp = num
-        while temp <= 100:
-            if temp == 0:
-                break
-            temp *= 10
+        p100 = num // 100
+        p10 = (num-100*p100) // 10
+        p1 = (num-10*p10)
 
-        temp_num.append((temp, num))
-    temp_num.sort(key=lambda x: (x[0], -x[1]),reverse=True)
-    print(temp_num)
+        temp_num.append((p100, p10, p1, num))  # (100의자리 10의 자리 1의자리) 순서로
+
+    temp_num.sort(key=lambda x: (x[2], x[1], x[0]), reverse=True)
+
     for _, num in temp_num:
         answer += str(num)
-
-    return answer
-
 
 i_numbers = [3, 30, 31, 25, 9, 0]
 
