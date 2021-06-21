@@ -1,63 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/Hash/P1_participant_not_complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/Hash/P1_participant_not_complete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/Hash/P2_phone_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/Hash/P2_phone_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/Hash/P3_spy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/Hash/P3_spy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/Heap/P6_hotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/Heap/P6_hotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/Heap/P7_disk_controler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/Heap/P7_disk_controler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/Stack_Queue/P4_Func_dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/Stack_Queue/P4_Func_dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/Stack_Queue/P5_printer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/Stack_Queue/P5_printer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/N2003_add_nums_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/N2003_add_nums_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/N2517_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/N2517_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/N2748_fibonacci_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/N2748_fibonacci_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/N2805_cut_the_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/N2805_cut_the_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/10_find_Kth_permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/10_find_Kth_permutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/11_find_all_subsets_of_a_given_set_of_integers.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/11_find_all_subsets_of_a_given_set_of_integers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/12_print_balanced_brace_combinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/12_print_balanced_brace_combinations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/13_clone_a_directed_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/13_clone_a_directed_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/14_find_low_high_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/14_find_low_high_index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/15_search_rotated_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/15_search_rotated_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/1_find_the_missing_number_in_the_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/1_find_the_missing_number_in_the_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/2_define_if_the_sum_of_two_integers_is_equal_to_the_given_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/2_define_if_the_sum_of_two_integers_is_equal_to_the_given_value.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/3_Merge_two_sorted_linked_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/3_Merge_two_sorted_linked_lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/4_copy_linked_list_with_arbitrary_pointer.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/4_copy_linked_list_with_arbitrary_pointer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/5_level_oder_traversal_of_binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/5_level_oder_traversal_of_binary_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/6_determine_if_a_binary_tree_is_a_binary_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/6_determine_if_a_binary_tree_is_a_binary_search_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/7_string_segmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/7_string_segmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon/8_reverse_words_in_a_sentence.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazon/8_reverse_words_in_a_sentence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/hash.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/hash.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/map_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/map_set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/queue_priorityQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/queue_priorityQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/13460_ball_out_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/13460_ball_out_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/14499_dice_roll.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/14499_dice_roll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/14502_lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/14502_lab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/14888_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/14888_calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/14890_slope.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/14890_slope.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/15684_radder.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/15684_radder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/15686_delivery_chicken.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/15686_delivery_chicken.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/17822_role_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/17822_role_board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/19236_shark2.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/19236_shark2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/19237_shark3.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/19237_shark3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/19238_start_taxi.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/19238_start_taxi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/20055_robot_on_conveyer_belt.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/20055_robot_on_conveyer_belt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/20056_wizard_shark_and_fireball.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/20056_wizard_shark_and_fireball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/20057_wizard_shark_and_torneido.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/20057_wizard_shark_and_torneido.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/20058_wizard_shark_and_firestome.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/20058_wizard_shark_and_firestome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/20061_monomino_domino_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/20061_monomino_domino_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/3190_snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/3190_snake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/5373_cubing.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/5373_cubing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/sw_solution_day_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/sw_solution_day_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/sw_solution_day_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/sw_solution_day_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samsung/sw_solution_day_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/samsung/sw_solution_day_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/white_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/white_page.py" afterDir="false" />
+    <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="p7 solved!">
+      <change afterPath="$PROJECT_DIR$/Programmers/Search/P8_k_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmers/Search/P9_maximum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -98,49 +46,7 @@
       <recent name="C:\Users\enin2\Documents\Python Scripts\data_structure\dataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.P7_disk_controler">
-    <configuration name="13460_ball_out_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data_structure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samsung" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samsung/13460_ball_out_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="20057_wizard_shark_and_torneido" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data_structure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samsung" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samsung/20057_wizard_shark_and_torneido.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.P9_maximum">
     <configuration name="20058_wizard_shark_and_firestome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,6 +89,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="P8_k_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/Search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/Search/P8_k_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="P9_maximum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/Search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/Search/P9_maximum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="white_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P9_maximum" />
+        <item itemvalue="Python.P8_k_number" />
         <item itemvalue="Python.P7_disk_controler" />
         <item itemvalue="Python.20058_wizard_shark_and_firestome" />
         <item itemvalue="Python.white_page" />
-        <item itemvalue="Python.20057_wizard_shark_and_torneido" />
-        <item itemvalue="Python.13460_ball_out_2" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +174,46 @@
       <option name="presentableId" value="Default" />
       <updated>1582194994336</updated>
     </task>
+    <task id="LOCAL-00001" summary="p7 solved!">
+      <created>1624198585871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624198585871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="p7 solved!" />
+    <option name="LAST_COMMIT_MESSAGE" value="p7 solved!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Programmers/Search/P8_k_number.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Programmers/Search/P8_k_number.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
