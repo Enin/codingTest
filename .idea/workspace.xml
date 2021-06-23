@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="p8 solved!&#10;p9 not solve yet.">
-      <change afterPath="$PROJECT_DIR$/Programmers/Greedy/P11_sportwear.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers/Greedy/P12_Joystick.py" afterDir="false" />
+    <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="P11, P12 solved!">
+      <change afterPath="$PROJECT_DIR$/Programmers/Greedy/P13_Make_a_big_number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
       <recent name="C:\Users\enin2\Documents\Python Scripts\data_structure\dataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.P12_Joystick">
+  <component name="RunManager" selected="Python.P13_Make_a_big_number">
     <configuration name="P10_Subtest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="P8_k_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="P13_Make_a_big_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/Search" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/Greedy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/Search/P8_k_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/Greedy/P13_Make_a_big_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P13_Make_a_big_number" />
         <item itemvalue="Python.P12_Joystick" />
         <item itemvalue="Python.P11_sportwear" />
         <item itemvalue="Python.P10_Subtest" />
         <item itemvalue="Python.P9_maximum" />
-        <item itemvalue="Python.P8_k_number" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624275064799</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="P11, P12 solved!">
+      <created>1624450508904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624450508904</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="p7 solved!" />
     <MESSAGE value="p8 solved!&#10;p9 not solve yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="p8 solved!&#10;p9 not solve yet." />
+    <MESSAGE value="P11, P12 solved!" />
+    <option name="LAST_COMMIT_MESSAGE" value="P11, P12 solved!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
