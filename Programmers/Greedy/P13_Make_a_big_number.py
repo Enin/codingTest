@@ -18,31 +18,67 @@
 from itertools import permutations
 from collections import deque
 
-max_ans = 0
+
+candis = []
 
 
-def solution(number, k):
-    global max_ans
-    num_list = list(number)
-    answer = ''.join(num_list)
+def solution_bad(number, k):    # 문자열, 뺄 숫자 갯수
+    # 문자열을 숫자 리스트로 변경.
+    list_number = list(map(int, number))
+    dfs(list_number, 0, k)
 
-    if k == 0:
-        max_ans = max(max_ans, answer)
-        return answer
+    answer = str(max(candis))
+
+    return answer
+
+
+def dfs(list_n, now, k): # 숫자 리스트, 반복할 횟수.
+    if now == k:
+        join_n = int(''.join(map(str, list_n)))
+        candis.append(join_n)
+
+    else:
+        len_n = len(list_n)
+        for i in range(len_n):
+            pop_one = list_n.pop(i) # i번째 리스트 값을 꺼냄
+            dfs(list_n, now + 1, k)
+            list_n.insert(i, pop_one)   # 꺼냈던 리스트 값을 다시 넣어줌.
+
+## dfs 로 풀면 시간 너무 오래걸림. 다시 할것.
+# 주의점 9가 있을 경우 해당 idx에서 시작하는 최적화.
+# 리스트.index(값)을 사용하여 원하는 값이 있는 idx를 리턴받음. 없을 경우 에러가 발생됨.
+# if v in l : l.index(v) 를 사용하여 값이 있는지 확인한 뒤 찾는다.
+# 문자열을 건드리지 않은채 index 만 사용하여 접근하는 것이 가장 빠를 수 있음.
+
+def solution(number, k):    # 문자열, 뺄 숫자 갯수
+    answer = ''
+    f_idx = 0
+    len_number = len(number)
+
+    list_number = list(map(int, number))
+
+    for i in range(k):
 
 
 
-        number = solution(number, k)
+    for j in range(k):
+
+        for i in range(9, 0, -1):
+            if str(i) in number[f_idx:]:
+                idx = number.index(str(i))
+                if idx <= (len_number - k):
+                    f_idx = max(f_idx, idx)
+
+        answer += number[f_idx]
+
 
 
     return answer
 
 
-def dfs(number, k, answer):
-    return 0
+i_number, i_k = "1231234", 	3
+
+print(solution(i_number, i_k))
 
 
-i_number, k = "1231234", 3
 
-
-# print(solution(i_number, k))
