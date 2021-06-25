@@ -18,3 +18,17 @@
 #     수식에는 괄호와 사칙연산만 가능하며 나누기 연산에서 나머지는 무시합니다.
 #     최솟값이 8보다 크면 -1을 return 합니다.
 
+# 최소값 > bfs 사용 > 제한거리 8
+# 불필요한 계산을 out case 로 제거.
+# 최적해 찾는 방법?
+
+
+def solution(N, number):
+    answer = 0
+
+
+
+    return answer
+
+
+i_N, i_number = 5, 12

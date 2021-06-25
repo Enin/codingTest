@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="P13&#10;dfs - not good.">
-      <change afterPath="$PROJECT_DIR$/Programmers/DP/P14_discribe_by_N.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmers/DFS_BFS/P15_Target_number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmers/DP/P14_discribe_by_N.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/DP/P14_discribe_by_N.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
       <recent name="C:\Users\enin2\Documents\Python Scripts\data_structure\dataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.P13_Make_a_big_number">
+  <component name="RunManager" selected="Python.P15_Target_number">
     <configuration name="P10_Subtest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="P9_maximum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="P15_Target_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/Search" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/DFS_BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/Search/P9_maximum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/DFS_BFS/P15_Target_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P15_Target_number" />
         <item itemvalue="Python.P13_Make_a_big_number" />
         <item itemvalue="Python.P12_Joystick" />
         <item itemvalue="Python.P11_sportwear" />
         <item itemvalue="Python.P10_Subtest" />
-        <item itemvalue="Python.P9_maximum" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624501774985</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="P13&#10;dfs - not good.">
+      <created>1624507082408</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624507082409</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
