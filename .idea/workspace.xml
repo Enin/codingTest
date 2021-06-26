@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="P13&#10;dfs - not good.">
-      <change afterPath="$PROJECT_DIR$/Programmers/DFS_BFS/P15_Target_number.py" afterDir="false" />
+    <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="P15 dfs problem.&#10;make sure how dfs works.">
+      <change afterPath="$PROJECT_DIR$/Programmers/BinarySearch/P16_Immigration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/DP/P14_discribe_by_N.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/DP/P14_discribe_by_N.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmers/Search/P10_Subtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/CompleteSearch/P10_Subtest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +47,7 @@
       <recent name="C:\Users\enin2\Documents\Python Scripts\data_structure\dataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.P15_Target_number">
-    <configuration name="P10_Subtest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data_structure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/Search" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/Search/P10_Subtest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.P16_Immigration">
     <configuration name="P11_sportwear" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,13 +132,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="P16_Immigration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/BinarySearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/BinarySearch/P16_Immigration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P16_Immigration" />
         <item itemvalue="Python.P15_Target_number" />
         <item itemvalue="Python.P13_Make_a_big_number" />
         <item itemvalue="Python.P12_Joystick" />
         <item itemvalue="Python.P11_sportwear" />
-        <item itemvalue="Python.P10_Subtest" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624507082409</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="P15 dfs problem.&#10;make sure how dfs works.">
+      <created>1624584295181</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624584295181</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +252,8 @@
     <MESSAGE value="P11, P12 solved!" />
     <MESSAGE value="P13 working.." />
     <MESSAGE value="P13&#10;dfs - not good." />
-    <option name="LAST_COMMIT_MESSAGE" value="P13&#10;dfs - not good." />
+    <MESSAGE value="P15 dfs problem.&#10;make sure how dfs works." />
+    <option name="LAST_COMMIT_MESSAGE" value="P15 dfs problem.&#10;make sure how dfs works." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
