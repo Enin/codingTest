@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="P15 dfs problem.&#10;make sure how dfs works.">
-      <change afterPath="$PROJECT_DIR$/Programmers/BinarySearch/P16_Immigration.py" afterDir="false" />
+    <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="P16 how to solve???">
+      <change afterPath="$PROJECT_DIR$/Programmers/Graph/P17_far_node.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmers/Search/P10_Subtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/CompleteSearch/P10_Subtest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +46,7 @@
       <recent name="C:\Users\enin2\Documents\Python Scripts\data_structure\dataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.P16_Immigration">
-    <configuration name="P11_sportwear" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data_structure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/Greedy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/Greedy/P11_sportwear.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.P17_far_node">
     <configuration name="P12_Joystick" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,13 +131,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="P17_far_node" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers/Graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/Graph/P17_far_node.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P17_far_node" />
         <item itemvalue="Python.P16_Immigration" />
         <item itemvalue="Python.P15_Target_number" />
         <item itemvalue="Python.P13_Make_a_big_number" />
         <item itemvalue="Python.P12_Joystick" />
-        <item itemvalue="Python.P11_sportwear" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624584295181</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="P16 how to solve???">
+      <created>1624718729421</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624718729422</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +259,8 @@
     <MESSAGE value="P13 working.." />
     <MESSAGE value="P13&#10;dfs - not good." />
     <MESSAGE value="P15 dfs problem.&#10;make sure how dfs works." />
-    <option name="LAST_COMMIT_MESSAGE" value="P15 dfs problem.&#10;make sure how dfs works." />
+    <MESSAGE value="P16 how to solve???" />
+    <option name="LAST_COMMIT_MESSAGE" value="P16 how to solve???" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
