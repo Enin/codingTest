@@ -19,35 +19,67 @@
 #     스파이는 하루에 최소 한 개의 의상은 입습니다.
 
 # 의상이름-key, 의상종류-value로 딕셔너리 생성
-from itertools import combinations
+def first_solution(clothes):
+    # dict_cloths = {}
+    # answer = 0
+    # 딕셔너리 안쓰고 그대로
+    # for i, cloth in enumerate(clothes):
+    #     dict_cloths[i] = cloth[1]
 
+    cloths_number = len(clothes)
+    cloth_combination = []
 
-def solution(clothes):
-    answer = 0
-    dict_cloths = {}
-    for cloth in clothes:
-        dict_cloths[cloth[0]] = cloth[1]
+    for i in range(1 << cloths_number):
+        comb_temp = []
+        kind_temp = []
+        for j in range(cloths_number):
+            if i & (1 << j):
+                if clothes[j][1] not in kind_temp:
+                    kind_temp.append(clothes[j][1])
+                    comb_temp.append(j)
 
-    for name, case in dict_cloths.items():
+        if comb_temp not in cloth_combination:
+            cloth_combination.append(comb_temp)
 
+    print(cloth_combination)
+    cloth_combination.pop(0)
+    answer = len(cloth_combination)
 
     return answer
 
-def comb(in_dict, n):
-    ans = []
-    if n > len(in_dict): return ans
-    if n == 1:
-        for item in in_dict:
-            ans.append([item])
-    elif n > 1:
-        for i in range(len(in_dict)):
-            temp_dict = in_dict[:]  # 리스트를 임시 복사
-                
+    # for comb in cloth_combination:
+    #     cnt = Counter(comb)
+    #     max_value = max(list(cnt.values()))
+    #     if max_value >= 2:
+    #         answer -= 1
 
+def solution(clothes): # best solution
+    # 옷의 종류별로 (옷종류갯수+벗은상황)*(옷종류갯수+벗은상황1)*... - 1(아무것도 안입었을때
+    # 종류(키): 옷(벨류) 로 딕셔너리 생성
+    # 각 딕셔너리 항목별 갯수+1을 다 곱해주고 마지막에 - 1
+    answer = 1
+    dic = {}
+    for cloth, ctype in clothes:
+        if not dic.get(ctype):
+            dic[ctype] = [cloth]
+        else:
+            dic[ctype].append(cloth)
 
-    return
+    for c_type in dic:
+        answer *= len(dic[c_type]) + 1
+
+    return answer - 1
+
 
 
 p_list = [["yellowhat", "headgear"], ["bluesunglasses", "eyewear"], ["green_turban", "headgear"]]
 
-solution(p_list)
+print(solution(p_list))
+
+
+def best_solution(clothes):
+    from collections import Counter
+    from functools import reduce    # reduce(집계함수, 순회가능 데이터,[,초기값]) 집계함수는 lambda 누적자(x,y): 집계함수(x*(y+1)), 순회데이터, 초기값) 형태
+    cnt = Counter([kind for name, kind in clothes])
+    answer = reduce(lambda x, y: x*(y+1), cnt.values(), 1) - 1
+    return answer
