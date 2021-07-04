@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="P3 now solved">
-      <change afterPath="$PROJECT_DIR$/Programmers/Stack_Queue/P18_Truck_crossing_bridge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f538d230-ff46-4e69-b2ac-b13362b4bb4d" name="Default Changelist" comment="P18 now solved" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624968399880</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="P18 now solved">
+      <created>1625214263421</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1625214263421</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +280,8 @@
     <MESSAGE value="P16 how to solve???" />
     <MESSAGE value="P17 solve, using Dijkstra Algorithm." />
     <MESSAGE value="P3 now solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="P3 now solved" />
+    <MESSAGE value="P18 now solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="P18 now solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
